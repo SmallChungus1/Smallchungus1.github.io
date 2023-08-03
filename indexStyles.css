@@ -1,0 +1,106 @@
+*{
+    background-color: white;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    height: auto;
+    width: auto;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item{
+    background-color: #1F2937;
+    width: auto;
+    height: auto;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item h1{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
+
+.item h2{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
+.header .image{
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+}
+#ProjectHLHeader{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.projectGallery{
+    background-color: white;
+    display: flex;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.TypingGame, .MusicShuffler, .TicTacToe, .WIP{
+    background-color: gray;
+    display: flex;
+    height: auto;
+    width: auto;
+    border: 3px solid;
+    display: flexbox;
+    flex-direction: column;
+}
+
+.ProjName{
+    text-align: center;
+}
+.Experinces{
+
+    background-color: #e5e7eb;
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+}
+
+#ExpHeader{
+    background-color: #e5e7eb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#1F2937;
+}
+
+#ExpList{
+    background-color: #e5e7eb;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ExpList > li, #ExpList>li>h3,.ExpCont, #ExpLength, #ExpDesc{
+    background-color: #e5e7eb;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.AbtMe{
+    background-color: #1F2937;
+    height: auto;
+    width: auto;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.AbtMe > p, #AbtMeHeader{
+    background-color: #1F2937;
+    color: white;
+}
+.AbtMe > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
