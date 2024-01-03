@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.aProjectItem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    width: 48%; /* Set width to 48% to allow for some margin between columns */
+    display: inline-block; /* Make the items display inline */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.projectTitle {
+    color: #333;
+}
+
+.projectDesc {
+    color: #666;
+}
+
+.projectLinks {
+    margin-top: 10px;
+}
+
+.projectLinks a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.projectImage {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.backButton {
+    margin-top: 20px;
+}
+.backButton button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
