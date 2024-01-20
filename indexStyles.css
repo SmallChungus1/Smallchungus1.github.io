@@ -20,11 +20,18 @@
     font-size: larger;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.item h1, p{
+.item h1{
     background-color: #1F2937;
     color: white;
     text-align: center;
 }
+
+.item p{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
+
 
 .item h2{
     background-color: #1F2937;
