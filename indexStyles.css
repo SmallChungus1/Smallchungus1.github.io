@@ -13,6 +13,18 @@
     gap: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center text */
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    .header .item {
+        margin-bottom: 10px; /* Add spacing between items */
+    }
+}
+
 .item{
     background-color: #1F2937;
     width: auto;
@@ -54,7 +66,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
-.projectGallery{
+
+.projectGallery {
     background-color: white;
     display: flex;
     height: auto;
@@ -62,6 +75,8 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
+    overflow-x: auto; /* Enable horizontal scrollbar */
+    white-space: nowrap; /* Prevent line breaks */
 }
 
 .projectsDiv{
