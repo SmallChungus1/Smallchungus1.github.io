@@ -1,98 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Hanson Li Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanson Li | Portfolio</title>
     <link rel="stylesheet" href="indexStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class = "header">
-        <div class="item">
-            <h1>Hanson Li</h1>
-            <h2>Undergrad studying CS + Econ, Washington University in St. Louis</h2>
-            <p>hanson.l@wustl.edu</p>
-        </div>
-        <div class = "image">
-            <a href = "https://www.linkedin.com/in/hanson-li-29b28519a"><img src="media/linkedinImg.png" height="200px" width="200px"></a>
-        </div>
-        <div class = "image">
-            <a href = "https://github.com/SmallChungus1?tab=repositories"><img src="media/githubimg.png" height="200px" width="200px"></a>
-        </div>
-    </div>
-    <h2 ID="ProjectHLHeader">Projects Collection</h2>
-    <div class="projectGallery">
-        <div class="projectsDiv">
-            <div class="projectImg">
-                <a href = "webDevProj.html"><img src="media\webDevMedia\virtualgymsc.png" height="300px" width="300px"></a> 
-            </div>
-            
-             <div class="ProjName">Web Dev</div>
-            
-        </div>
-        <div class="projectsDiv">
-            <div class="projectImg">
-                <a href = "mlProj.html"><img src="media\mlPersonalWebThumbNail.JPG" height="300px" width="300px"></a> 
-            </div>
-            
-             <div class="ProjName">Machine Learning</div>
-           
-        </div>
-        <div class="projectsDiv">
-            <div class="projectImg">
-                <a href = "classProj.html"><img src="media/calAppSS.png" height="300px" width="300px"></a> 
-            </div>
-            
-             <div class="ProjName">Class Projects</div>
-        </div>
-        <div class="projectsDiv">
-            <div class="projectImg">
-                <a href = "robloxgames.html"><img src="media\rblxMedia\roPlayerSS.png" height="300px" width="300px"></a> 
-            </div>
-            
-             <div class="ProjName">Roblox Game Dev</div>
-        </div>
-
-
-    </div>
-   
-    <!-- <div class="Experinces">
-        <h2 id="ExpHeader">Relevant Experinces:</h2>
-        <ul id="ExpList">
-            <li><h3>CompSci Department Teaching Assistant - Washington University in St. Louis</h3>
-                <div class="ExpCont">
-                    <p id="ExpLength">Jan 2023 - Present</p>
-                    <p id="ExpDesc">TA for CSE240: Logic and Discrete Math.</p>
-                    <p id="ExpDesc">Hosted weekly office hours, graded homework and exams for a class of ~150 students. Facilitated in-class quizzes and helped instructor answer questions during lectures</p>
-                    
+    <main class="container">
+        <!-- Hero Section / Name Card -->
+        <section class="hero card">
+            <div class="profile-header">
+                <div>
+                    <h1>Hanson Li</h1>
+                    <div class="education-header">
+                        <p class="edu-item"><strong>M.S. in Computer Science</strong> @ WashU <span
+                                class="edu-date">(Aug 2025 - May 2026)</span></p>
+                        <p class="edu-item"><strong>B.S. in CS and Economics</strong> @ WashU <span
+                                class="edu-date">(Aug 2022 - Dec 2024)</span></p>
+                    </div>
                 </div>
-            </li>
-            <li><h3>President - InSite WashU</h3>
-                <div class="ExpCont">
-                    <p id="ExpLength">Sept 2022 - Present</p>
-                    <p id="ExpDesc">InSite Washu is a on-campus no-code app design organization focused on UI/UX and the no-code app space</p>
-                    <p id="ExpDesc">As President, I led a group of 10 execs to plan semester-long events and support our 5 project groups. I helped establish partnerships with other student orgs and oversaw recruitment, fundraising, and marketing efforts</p>
+            </div>
 
-                </div>
-            </li>
-            <li><h3>Databse Management Intern - Jireh Semiconductor</h3>
-                <div class="ExpCont">
-                    <p id="ExpLength">June 2021 - July 2021</p>
-                    <p id="ExpDesc">Populated Excel database for a semiconductor companies's product defects. Wrote VBA scripts to automatically format the database. Developed new defect cross-reference feature between databases using VLookUp</p>
-                </div>
-            </li>
-        </ul>
-    </div> -->
+            <div class="links">
+                <a href="https://github.com/SmallChungus1" target="_blank" class="btn">GitHub</a>
+                <a href="https://www.linkedin.com/in/hanson-li1" target="_blank" class="btn">LinkedIn</a>
+                <a href="mailto:hanson.l@wustl.edu" class="btn">Email</a>
+                <a href="media/Hanson_Resume_jan2026.pdf" target="_blank" class="btn secondary">Resume</a>
+            </div>
 
-    <div class="AbtMe">
-        <h2 id="AbtMeHeader">About Me!</h2>
-        <p id="abtMeParagraphTexts">Having lived in Oregon for 7 years, I've developed a love for nature and the Pacific North West! 
-            I love to explore new indie music while going on drives. [my current fav artists include Dr. Dog and Dayglow <a href="https://open.spotify.com/playlist/3vV8b34V3MqG5xCHCxpwLe?si=dee0d1c0b4674cab">Check out my curated Spotify Playlist Below!</a>]. 
-            As a student, I'm currently interested in exploring computer vision and its applications
-             in autonomous driving and medical diagnostics.
-        </p>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3vV8b34V3MqG5xCHCxpwLe?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-    
+            <div class="bio">
+                <p>
+                    Master's student with prior internship experience in Software Engineering and Machine Learning
+                    seeking New Grad 2026 MLE/SWE/DS roles.
+                </p>
+            </div>
+        </section>
+
+        <!-- Experience Section (Scrolling) -->
+        <section class="experience card-section">
+            <h3>Experience</h3>
+            <div class="scroll-container">
+
+                <!-- Experience 1: CarMax -->
+                <div class="card-item">
+                    <div class="card-header">
+                        <img src="https://www.google.com/s2/favicons?domain=carmax.com&sz=64" alt="CarMax Logo"
+                            class="card-logo">
+                        <div class="card-title-group">
+                            <h4>Software Engineer Intern</h4>
+                            <h5>CarMax</h5>
+                        </div>
+                    </div>
+                    <div class="card-date">June 2025 – Aug 2025</div>
+                    <p>Developed a Python-based web app for configuring A/B testing of vehicle recommendation models.
+                        Built embedding-based semantic search tool using vision-language models and vector DBs.</p>
+                </div>
+
+                <!-- Experience 2: Norfolk Southern Railway -->
+                <div class="card-item">
+                    <div class="card-header">
+                        <img src="https://www.google.com/s2/favicons?domain=nscorp.com&sz=64"
+                            alt="Norfolk Southern Logo" class="card-logo">
+                        <div class="card-title-group">
+                            <h4>Machine Learning Intern</h4>
+                            <h5>Norfolk Southern Railway</h5>
+                        </div>
+                    </div>
+                    <div class="card-date">Jan 2025 – Apr 2025</div>
+                    <p>Fine-tuned object detection models for rail-car defects (0.95+ mAP). Built an active-learning
+                        pipeline automating image uploads with SQLite and CVAT.</p>
+                </div>
+
+                <!-- Experience 3: WashU School of Medicine -->
+                <div class="card-item">
+                    <div class="card-header">
+                        <img src="https://www.google.com/s2/favicons?domain=wustl.edu&sz=64" alt="WashU Medicine Logo"
+                            class="card-logo">
+                        <div class="card-title-group">
+                            <h4>Machine Learning RA</h4>
+                            <h5>WashU School of Medicine</h5>
+                        </div>
+                    </div>
+                    <div class="card-date">May 2024 – Present</div>
+                    <p>Training 3D-ResNets for brain scan quality classification. Developed a containerized OCR app for
+                        extracting biomarkers.</p>
+                </div>
+
+                <!-- Experience 4: Alpha and Omega Semiconductor -->
+                <div class="card-item">
+                    <div class="card-header">
+                        <img src="https://www.google.com/s2/favicons?domain=aosmd.com&sz=64" alt="AOS Logo"
+                            class="card-logo">
+                        <div class="card-title-group">
+                            <h4>Software Engineer Intern</h4>
+                            <h5>Alpha and Omega Semiconductor</h5>
+                        </div>
+                    </div>
+                    <div class="card-date">May 2024 – July 2024</div>
+                    <p>Shipped Java-based logistical dashboard web apps. Built reusable string-matching utilities for
+                        data analytics.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
 </body>
+
 </html>
